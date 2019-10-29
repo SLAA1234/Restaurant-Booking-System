@@ -8,7 +8,7 @@ let email = document.querySelector("#email-adress");
 let note = document.querySelector("#note");
 let clearBookingButton = document.querySelector("#clear-button");
 let submitBookingButton = document.querySelector("#submit-button");
-let customerBookingList = document.querySelector("booking-list")
+let customerBookingList = document.querySelector("#booking-list")
 
 submitBookingButton.onclick = function(evt){
     evt.preventDefault();
