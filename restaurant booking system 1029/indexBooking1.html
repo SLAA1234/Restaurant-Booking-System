@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Restaurant Booking</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+      <h1>Book A Table</h1> 
+
+      <form>
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name">
+        <br>
+        <br>
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name">
+        <br>
+        <br>
+        <label for="visiting-date">Visiting Date:</label>
+        <input type="date" id="visiting-date">
+        <br>
+        <br>
+        <label for="visiting-time">Visiting Time:</label>
+        <input type="time" id="visiting-time">
+        <br>
+        <br>
+        <label for="table-type">Table Type:</label>
+        <select id="table-type">
+          <option value="2-personTable">2-person Table</option>
+          <option value="4-personTable">4-person Table</option>
+          <option value="6-personTable">6-person Table</option>
+          <option value="8-personTable">8-person Table</option>
+        </select>
+        <br>
+        <br>
+        <label for="telephone-number">Telephone Number:</label>
+        <input type= "tel" id="telephone-number">
+        <br>
+        <br>
+        <label for="email-adress">Email Adress:</label>
+        <input type= "email" id="email-adress">
+        <br>
+        <br>
+        <label for= "note" id="note">Note:</label>
+        <textarea row="7" cols= "30" type ="text" placeholder="what do you want us to know?"></textarea><br><br>
+        <br>
+        <br>
+        <br>
+        <button id= "clear-button">Clear</button>
+        <button id= "submit-button">Submit</button>
+    </form>
+    
+    <ul id="booking-list"></ul>
+
+    <script src="/js/Customer1.js"></script>
+    <script src="/js/main.js"></script>
+    
+  
+  </body>
+</html>
