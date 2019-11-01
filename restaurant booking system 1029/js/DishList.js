@@ -1,5 +1,5 @@
 class DishList extends Domer {
-    dishList = [];
+    _dishList = [];
     todayDishPic = [
         "/images/0.jpg",
         "/images/1.jpg",
@@ -23,7 +23,7 @@ class DishList extends Domer {
 
     getDishList(){
         let result="";
-        for(let Dish of this.dishList){
+        for(let Dish of this._dishList){
             result += `
             <section id="list">
             <div>${Dish.dishName}</div>

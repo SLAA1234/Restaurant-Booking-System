@@ -1,5 +1,5 @@
 class Dish extends Domer{
-    dishPic = '';
+    dishPic = "";
     dishName = "";
    
     constructor(dishName, dishPic){
@@ -11,7 +11,7 @@ class Dish extends Domer{
     render(html){
         return html`
             <div>
-                <br><br><img src="/images/2.jpg"><br><br>
+                <br><br><img src="${this.dishPic}"><br><br>
                 ${this.dishName}   
             </div>
         `

@@ -5,7 +5,7 @@ class Restaurant extends Domer{
     resEmail = "";
     dishList = new DishList();
     weekOpeningHour = new WeekOpeningHour();
-    theDayDish = new TodayDish(this.dishList.dishList);
+    theDayDish = new TodayDish(this.dishList._dishList);
      
     constructor(){
         super();

@@ -10,6 +10,16 @@ let clearBookingButton = document.querySelector("#clear-button");
 let submitBookingButton = document.querySelector("#submit-button");
 let customerBookingList = document.querySelector("#booking-list")
 
+function checkInput(){
+    if (document.querySelector("#telephone-number").value === ""&& document.querySelector("#email-adress").value === "" ) {
+        document.querySelector("#submit-button").disabled = true;
+    } else{
+        document.querySelector("#submit-button").disabled = false;
+    }
+}
+
+
+
 submitBookingButton.onclick = function(evt){
     evt.preventDefault();
 
@@ -44,11 +54,4 @@ customerBookingList.onclick = function(evt){
     evt.preventDefault();
     evt.target.remove();
 }
-
-
-
-
-
-
-
 
