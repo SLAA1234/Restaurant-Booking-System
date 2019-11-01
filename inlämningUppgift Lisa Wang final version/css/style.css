@@ -1,0 +1,67 @@
+body{
+    background-color:bisque;
+}
+div.center{
+    text-align: center;
+    color: #d54d7b; 
+    font-family: "Rouge Script", cursive; 
+    font-size: 40px;
+    text-shadow: 0 1px 1px #ffffff;
+}
+
+
+
+.flex-button{
+    display: flex;  
+    justify-content: space-evenly;
+    
+}
+
+.table-button{
+    text-align: center;
+    background-color: yellow;
+    border-radius: 8px;
+    opacity: 0.6;
+    transition: 0.6s;
+    transition: 0.3;
+    box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 20px 40px;
+    text-decoration-color: burlywood;;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;   
+}
+.table-button:hover {opacity:1}
+.dish-info{
+    display: flex;  
+    justify-content: space-evenly;
+    margin-right: 15%;
+    font-size: 1.2em;  
+}
+#register_login{
+    text-align: right;
+}
+
+#list{
+    
+    height: 33%;
+    width: 33%;
+}
+
+#dish-list{
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;    
+}
+
+.footer{
+    position: fixed;
+    text-align: center;
+    margin-left: 42%;
+    
+}
+
